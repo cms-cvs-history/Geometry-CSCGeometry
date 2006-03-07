@@ -1,0 +1,14 @@
+#
+# This cfi should be included to build the CSC geometry model.
+#
+
+# modelling flags (for completeness - internal defaults are already sane)
+# I guess these parameters should be tracked
+# BUT FOR NOW TURN OFF REAL WIRE GEOM, TO COMPARE WITH ORCA
+
+es_module = CSCGeometryESModule {
+   bool useRadialStrips       = true
+   bool useRealWireGeometry   = false
+   bool useGangedStripsInME1a = true
+   bool useOnlyWiresInME1a    = false
+}

@@ -1,6 +1,8 @@
 <use name=Geometry/CSCGeometry>
 <use name=Geometry/CommonDetUnit>
 <use name=FWCore/Framework>
+<use name=FWCore/ParameterSet>
+<use name=Geometry/Records>
 
 <flags CXXFLAGS="-g">
 

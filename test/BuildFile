@@ -1,0 +1,17 @@
+<use name=Geometry/CSCGeometry>
+<use name=Geometry/CommonDetUnit>
+<use name=FWCore/Framework>
+
+<flags CXXFLAGS="-g">
+
+<library file=stubs/CSCGeometryAnalyzer.cc name=testGeometryCSCGeometry>
+   <flags SEAL_PLUGIN_NAME="testGeometryCSCGeometry">
+</library>
+
+<library file=stubs/CSCGeometryAsChambers.cc name=testGeometryAsChambers>
+   <flags SEAL_PLUGIN_NAME="testGeometryAsChambers">
+</library>
+
+<library file=stubs/CSCGeometryAsLayers.cc name=testGeometryAsLayers>
+   <flags SEAL_PLUGIN_NAME="testGeometryAsLayers">
+</library>

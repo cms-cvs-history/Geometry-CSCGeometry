@@ -1,0 +1,17 @@
+#------------------------------------------------------------
+# THIS cfi IS A SPECIAL VERSION FOR USE ONLY WHEN COMPARING
+# WITH OLD ORCA SIMULATIONS IN WHICH THE REAL CSC WIRE
+# GEOMETRY WAS NOT MODELLED. THIS IS FLAGGED BY THE SETTING
+# useRealWireGeometry=false
+# AND WAS THE CASE FOR 'MOST' SIMULATION PERFORMED WITH ORCA.
+#------------------------------------------------------------
+#
+# This cfi should be included to build the CSC geometry model.
+#
+
+es_module = CSCGeometryESModule {
+   bool useRadialStrips       = true
+   bool useRealWireGeometry   = false
+   bool useGangedStripsInME1a = true
+   bool useOnlyWiresInME1a    = false
+}

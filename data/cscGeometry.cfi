@@ -3,12 +3,10 @@
 #
 
 # modelling flags (for completeness - internal defaults are already sane)
-# I guess these parameters should be tracked
-# BUT FOR NOW TURN OFF REAL WIRE GEOM, TO COMPARE WITH ORCA
 
 es_module = CSCGeometryESModule {
    bool useRadialStrips       = true
-   bool useRealWireGeometry   = false
+   bool useRealWireGeometry   = true
    bool useGangedStripsInME1a = true
    bool useOnlyWiresInME1a    = false
 }

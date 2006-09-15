@@ -15,8 +15,9 @@
 #
 
 es_module = CSCGeometryESModule {
-   bool useRadialStrips       = true
-   bool useRealWireGeometry   = false
-   bool useGangedStripsInME1a = true
-   bool useOnlyWiresInME1a    = false
+    bool useRadialStrips       = true
+    bool useRealWireGeometry   = false
+    bool useGangedStripsInME1a = true
+    bool useOnlyWiresInME1a    = false
+    untracked bool applyAlignment = false
 }

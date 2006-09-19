@@ -9,5 +9,6 @@ es_module = CSCGeometryESModule {
     bool useRealWireGeometry   = true
     bool useGangedStripsInME1a = true
     bool useOnlyWiresInME1a    = false
+    bool useCentreTIOffsets    = false
     untracked bool applyAlignment = false
 }

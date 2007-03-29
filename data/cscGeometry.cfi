@@ -5,7 +5,6 @@
 # modelling flags (for completeness - internal defaults are already sane)
 
 es_module = CSCGeometryESModule {
-    bool useRadialStrips       = true
     bool useRealWireGeometry   = true
     bool useGangedStripsInME1a = true
     bool useOnlyWiresInME1a    = false

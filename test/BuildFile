@@ -8,17 +8,17 @@
 <flags CXXFLAGS="-g">
 
 <library file=stubs/CSCGeometryAnalyzer.cc name=testCSCGeometry>
-   <flags SEAL_PLUGIN_NAME="testCSCGeometry">
+   <flags EDM_PLUGIN=1>
 </library>
 
 <library file=stubs/CSCGeometryAsChambers.cc name=testCSCGeometryAsChambers>
-   <flags SEAL_PLUGIN_NAME="testCSCGeometryAsChambers">
+   <flags EDM_PLUGIN=1>
 </library>
 
 <library file=stubs/CSCGeometryAsLayers.cc name=testCSCGeometryAsLayers>
-   <flags SEAL_PLUGIN_NAME="testCSCGeometryAsLayers">
+   <flags EDM_PLUGIN=1>
 </library>
 
 <library file=stubs/CSCGeometryOfWires.cc name=testCSCGeometryOfWires>
-   <flags SEAL_PLUGIN_NAME="testCSCGeometryOfWires">
+   <flags EDM_PLUGIN=1>
 </library>

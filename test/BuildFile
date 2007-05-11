@@ -22,3 +22,7 @@
 <library file=stubs/CSCGeometryOfWires.cc name=testCSCGeometryOfWires>
    <flags EDM_PLUGIN=1>
 </library>
+
+<library file=stubs/CSCGeometryOfStrips.cc name=testCSCGeometryOfStrips>
+   <flags EDM_PLUGIN=1>
+</library>

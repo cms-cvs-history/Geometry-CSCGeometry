@@ -10,4 +10,5 @@ es_module = CSCGeometryESModule {
     bool useOnlyWiresInME1a    = false
     bool useCentreTIOffsets    = false
     untracked bool applyAlignment = false
+    untracked bool debugV = false
 }

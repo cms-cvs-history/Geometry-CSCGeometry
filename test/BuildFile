@@ -4,9 +4,6 @@
 <use name=FWCore/Framework>
 <use name=FWCore/ParameterSet>
 
-
-<flags CXXFLAGS="-g">
-
 <library file=stubs/CSCGeometryAnalyzer.cc name=testCSCGeometry>
    <flags EDM_PLUGIN=1>
 </library>

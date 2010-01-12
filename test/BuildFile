@@ -4,7 +4,7 @@
 <use name=FWCore/Framework>
 <use name=FWCore/ParameterSet>
 <use name=FWCore/ServiceRegistry>
-<use name=PhysicsTools/UtilAlgos>
+<use name=CommonTools/UtilAlgos>
 <use name=root>
 
 <library file=stubs/CSCGeometryAnalyzer.cc name=testCSCGeometry>
